@@ -128,3 +128,32 @@ body {
 .product-btn:focus {
   background-color: #173a56;
 }
+/*managment*/
+.management {}
+
+.management-title{
+font-weight: 600;
+    font-size: 16px;
+}
+.managment-title-part {
+        font-weight: 700;
+            font-size: 32px;
+}
+
+.managment-text {
+    line-height: 1.625;
+}
+
+.managment-list {}
+
+.managment-item {}
+
+.managment-subtitle {
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.625;
+}
+
+.managment-desk {
+    line-height: 1.625;
+}

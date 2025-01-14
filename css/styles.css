@@ -5,7 +5,20 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
 button {
   cursor: pointer;
 }
@@ -129,31 +142,205 @@ body {
   background-color: #173a56;
 }
 /*managment*/
-.management {}
+.management {
+}
 
-.management-title{
-font-weight: 600;
-    font-size: 16px;
+.management-title {
+  font-weight: 600;
+  font-size: 16px;
 }
 .managment-title-part {
-        font-weight: 700;
-            font-size: 32px;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .managment-text {
-    line-height: 1.625;
+  line-height: 1.625;
 }
 
-.managment-list {}
+.managment-list {
+}
 
-.managment-item {}
+.managment-item {
+}
 
 .managment-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.managment-desk {
+  line-height: 1.625;
+}
+/*  Customers*/
+.customers {
+}
+
+.customers-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.customers-title-part {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.customers-text {
+  line-height: 1.625;
+}
+
+.customers-list {
+}
+
+.customers-item {
+}
+
+.customers-desc {
+  line-height: 1.625;
+}
+/* optimisation */
+..optimisation {
+}
+
+.optimisation-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.optimisation-title-part {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.optimisation-text {
+  line-height: 1.625;
+}
+
+.customers-list {
+}
+
+.customers-item {
+}
+.optimisation-subtitle{
     font-weight: 600;
         font-size: 16px;
         line-height: 1.625;
 }
 
-.managment-desk {
+.optimisation-desc {
     line-height: 1.625;
 }
+/* process */
+.process {}
+
+.process-title {
+    font-size: 32px;
+        text-align: center;
+}
+
+.process-text {
+    font-weight: 500;
+    line-height: 1.625;
+        text-align: center;
+}
+
+.process-list {}
+
+.process-item {}
+
+.process-desc {
+    font-weight: 500;
+        text-align: center;
+        color: #2f281e;
+}
+
+.process-btn {
+    font-weight: 700;
+        font-size: 16px;
+        color:#fff;
+        border-radius: 4px;
+        background-color: #02897a;
+        border:none;
+
+}
+.process-btn:hover,
+.process-btn:focus{
+    background-color: #173a56;
+
+}
+/* content */
+.content {}
+
+.content-title {
+    font-size: 34px;
+}
+
+.content-text {
+    font-weight: 500;
+        
+        line-height: 1.625;
+        
+}
+
+.content-list {}
+
+.content-item {}
+
+.content-desc {
+    line-height: 1.75;
+}
+
+.content-desk-part {
+    font-weight: 700;
+}
+
+.content-subtitle {
+    font-size: 24px;
+        line-height: 1.66667;
+}
+.content-subtitle-current{
+    color: #02897a;
+}
+.content-item:hover > .content-subtitle{
+    color: #02897a;
+}
+/* price */
+.price {}
+
+.price-title {
+    font-size: 34px;
+}
+
+.price-text {}
+
+.price-list {}
+
+.price-item {
+    width: 322px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+        
+}
+
+.price-subtitle {
+    font-size: 24px;
+}
+
+.price-desc {
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.5;
+}
+
+.price-num {}
+
+.price-currency {}
+
+.price-period {}
+
+.price-service-list {}
+
+.price-service-text {}
+
+.price-btn {}

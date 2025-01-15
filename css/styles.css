@@ -333,14 +333,60 @@ body {
     line-height: 2.5;
 }
 
-.price-num {}
+.price-num {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 76px;
+        line-height: 1.31579;
+        letter-spacing: 0em;
+        color: #02897a;
+}
 
-.price-currency {}
+.price-currency {
+    font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.25;
+        letter-spacing: 0em;
+        color: #02897a;
+}
 
-.price-period {}
+.price-period {
+    font-family: "Montserrat", sans-serif;
+        line-height: 1.1875;
+        letter-spacing: 0.01em;
+        color: #afafaf;
+}
 
 .price-service-list {}
 
-.price-service-text {}
+.price-service-text {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        line-height: 1.375;
+        letter-spacing: 0.01em;
+}
 
-.price-btn {}
+.price-btn {
+    background-color:  #02897a;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+        border: none;
+}
+.price-item-second{
+    color: #fff;
+    background-color: #02897a;
+}
+.price-num-second{
+    color: #fff;
+}
+.price-currency-second{
+    color: #fff;
+}
+.price-btn-second{
+    border-color: #fff;
+    color:#02897a;
+}

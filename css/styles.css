@@ -387,6 +387,65 @@ body {
     color: #fff;
 }
 .price-btn-second{
-    border-color: #fff;
+    background-color: #fff;
     color:#02897a;
+}
+/* clients */
+.clients {}
+
+.clients-title {
+    font-size: 32px;
+        line-height: 1.78125;
+        letter-spacing: 0.01em;
+        text-align: center;
+}
+
+.clients-text {
+font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.clients-list {}
+
+.clients-desc {
+    line-height: 1.75;
+        letter-spacing: 0.01em;
+        color: #737373;
+}
+
+.clients-subtitle {
+    font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        color: #02897a;
+}
+
+.clients-description {
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71429;
+        letter-spacing: 0.01em;
+}
+/* promo */
+.promo {
+    background-color: #02897a;
+}
+
+.promo-text {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.514;
+        color: #fff;
+}
+
+.prono-btn {
+    background-color: #fff;
+    border-radius: 8px;
+    border:none;
+    font-weight: 600;
+        font-size: 20px;
+        color: #02897a;
 }

@@ -491,3 +491,9 @@ font-weight: 500;
 .footer-desc {
         line-height: 1.875;
 }
+/* Clients */
+.clients {}
+
+.clients-title {
+        font-size: 40px;
+}

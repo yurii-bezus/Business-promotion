@@ -52,69 +52,68 @@
     </header>
     <main>
       <!--price-->
-      <section>
-        <h1>PRICING</h1>
-        <h2>Let’s get some real work done here.</h2>
-        <p>
-          Prodict is your perfect solution for working. Get started now for free
-        </p>
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
+      <section class="price">
+        <h2 class="price-title">Price Table</h2>
+        <p class="price-text">We offer competitive price</p>
+        <ul class="price-list">
+          <li class="price-item">
+            <h3 class="price-subtitle">Free</h3>
+            <p class="price-desc">Brief price description</p>
+            <p class="price-num">0</p>
+            <p class="price-currency">$</p>
+            <p class="price-period">Per / month</p>
+            <ul class="price-service-list">
               <li>
-                <p>Only 2 Operators</p>
+                <p class="price-service-text">Only 2 Operators</p>
               </li>
               <li>
-                <p>Notifications</p>
+                <p class="price-service-text">Notifications</p>
               </li>
               <li>
-                <p>Landing Pages</p>
+                <p class="price-service-text">Landing Pages</p>
               </li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="price-btn" type="button">Order Now</button>
           </li>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <p>5</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
+          <li class="price-item price-item-second">
+            <h3 class="price-subtitle">Standard</h3>
+            <p class="price-desc">Brief price description</p>
+            <p class="price-num price-num-second">5</p>
+            <p class="price-currency price-currency-second">$</p>
+            <p class="price-period">Per / month</p>
+            <ul class="price-service-list">
               <li>
-                <p>5+ Operators</p>
+                <p class="price-service-text">5+ Operators</p>
               </li>
               <li>
-                <p>Notifications</p>
+                <p class="price-service-text">Notifications</p>
               </li>
               <li>
-                <p>Landing Pages</p>
+                <p class="price-service-text">Landing Pages</p>
               </li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="price-btn price-btn-second" type="button">
+              Order Now
+            </button>
           </li>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <p>10</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
+          <li class="price-item">
+            <h3 class="price-subtitle">Premium</h3>
+            <p class="price-desc">Brief price description</p>
+            <p class="price-num">10</p>
+            <p class="price-currency">$</p>
+            <p class="price-period">Per / month</p>
+            <ul class="price-service-list">
               <li>
-                <p>10+ Operators</p>
+                <p class="price-service-text">10+ Operators</p>
               </li>
               <li>
-                <p>Notifications</p>
+                <p class="price-service-text">Notifications</p>
               </li>
               <li>
-                <p>Landing Pages</p>
+                <p class="price-service-text">Landing Pages</p>
               </li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="price-btn" type="button">Order Now</button>
           </li>
         </ul>
       </section>
@@ -189,36 +188,48 @@
           </li>
         </ul>
       </section>
-      <!--Join 100 Compannies-->
-      <section>
+      <!--promo-->
+      <section class="promo">
         <h2 hidden>Promo</h2>
-        <p>Join 100 Compannies who boost their business with Product</p>
-        <button type="button">Get This</button>
-        <img src="./images/screen.png" alt="screen" width="351" height="331" />
+        <p class="promo-text">
+          Join 100 Compannies who boost their business with Product
+        </p>
+        <button class="prono-btn" type="button">Get This</button>
+        <img
+          src="./images/graphics.png"
+          alt="graphics"
+          width="351"
+          height="331"
+        />
       </section>
     </main>
     <!--footer-->
-    <footer>
-      <a href="./index.html"
-        ><img src="./images/logo.svg" alt="logo" width="40" height="36"
-      /></a>
-      <b>Resource</b>
-      <ul>
-        <li><a href="">About Us </a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
+    <footer class="footer">
+      <a class="footer-logo" href="./index.html"
+        ><img
+          src="./images/logo.svg"
+          alt="logo"
+          width="40"
+          height="36"
+        />Product</a
+      >
+      <b class="footer-title">Resource</b>
+      <ul class="footer-list">
+        <li><a class="footer-link" href="">About Us </a></li>
+        <li><a class="footer-link" href="">Blog</a></li>
+        <li><a class="footer-link" href="">Contact</a></li>
+        <li><a class="footer-link" href="">FAQ</a></li>
       </ul>
-      <b>Legal Stuff</b>
-      <ul>
-        <li><a href="">Disclaimer </a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Terms of Service</a></li>
+      <b class="footer-title">Legal Stuff</b>
+      <ul class="footer-list">
+        <li><a class="footer-link" href="">Disclaimer </a></li>
+        <li><a class="footer-link" href="">Financing</a></li>
+        <li><a class="footer-link" href="">Privacy Policy</a></li>
+        <li><a class="footer-link" href="">Terms of Service</a></li>
       </ul>
-      <p>knowing you're always on the best energy deal.</p>
-      <button type="submit">Sign up Now</button>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <p class="footer-text">knowing you're always on the best energy deal.</p>
+      <button class="footer-btn" type="submit">Sign up Now</button>
+      <p class="footer-desc">Made With Love By Figmaland All Right Reserved</p>
     </footer>
   </body>
 </html>

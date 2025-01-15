@@ -449,3 +449,45 @@ font-weight: 500;
         font-size: 20px;
         color: #02897a;
 }
+/* footer */
+.footer {}
+
+.footer-logo {
+    font-weight: 700;
+        font-size: 30px;
+        line-height: 0.93333;
+        color: #173a56;
+}
+
+.footer-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+}
+
+.footer-list {}
+
+.footer-link {
+        line-height: 2.1875;
+}
+
+.footer-text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+}
+
+.footer-btn {
+    background-color: #02897a;
+    border: none;
+    border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+
+}
+
+.footer-desc {
+        line-height: 1.875;
+}

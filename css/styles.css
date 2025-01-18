@@ -455,8 +455,14 @@ body {
   border: none;
   font-weight: 600;
   font-size: 20px;
-  color: #02897a;
+  color: #22343d;
 }
+.prono-btn:hover,
+.prono-btn:focus{
+  background-color:#173a56;
+    color:#fff;
+}
+
 /* footer */
 .footer {
 }
@@ -563,8 +569,13 @@ body {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+    border:none;
 }
-
+.howwork-btn:hover,
+.howwork-btn:focus {
+  background-color: azure;
+  color: #173a56;
+}
 .offers {}
 
 .offers-title {
@@ -616,3 +627,47 @@ body {
     font-size: 18px;
     color: #fff;
 }
+.enterprise-btn:hover,
+.enterprise-btn:focus {
+  background-color: azure;
+  color: #173a56;
+}
+.effects {}
+
+.effects-title {
+  font-size: 34px;
+}
+
+.effects-list {}
+
+.effects-item {}
+
+.effects-subtitle {
+  font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.effects-text {
+  line-height: 1.75;
+}
+.questions {}
+
+.questions-title {
+  font-size: 34px;
+}
+
+.questions-text {
+  font-size: 18px;
+}
+
+.questions-list {}
+
+.questions-item {}
+
+.questions-subtitle {
+  font-weight: 500;
+    font-size: 18px;
+}
+
+.questions-desk {}

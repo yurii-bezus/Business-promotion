@@ -592,3 +592,27 @@ body {
   line-height: 1.75;
     color: #000;
 }
+.enterprise {}
+
+.enterprise-title {
+  font-weight: 600;
+    font-size: 24px;
+}
+
+.enterprise-subtitle {
+  font-weight: 700;
+    font-size: 34px;
+}
+
+.enterprise-text {
+  font-size: 18px;
+}
+
+.enterprise-btn {
+  background: #02897a;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}

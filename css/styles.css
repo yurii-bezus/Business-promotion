@@ -282,7 +282,7 @@ body {
 .content-text {
   font-weight: 500;
 
-  line-height: 1.625;
+  line-height: 1.62;
 }
 
 .content-list {
@@ -506,4 +506,89 @@ body {
 
 .clients-title {
   font-size: 40px;
+}
+.advantages {}
+
+.advantages-title {
+  font-size: 34px;
+    text-align: center;
+}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {
+  font-size: 24px;
+    line-height: 1.375;
+    text-align: center;
+}
+
+.advantages-text {
+  line-height: 1.6875;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+.howwork {}
+
+.howwork-title {
+  font-size: 34px;
+    text-align: center;
+}
+
+.howwork-list {}
+
+.howwork-item {}
+
+.howwork-part {
+  font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.howwork-subtitle {
+  font-weight: 600;
+    font-size: 24px;
+    text-align: center
+}
+
+.howwork-text {
+  line-height: 1.75;
+}
+
+.howwork-btn{
+  border-radius: 8px;
+  background: #02897a;
+  font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.offers {}
+
+.offers-title {
+  font-size: 32px;
+    text-align: center;
+}
+
+.offers-subtitle {
+  font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #000;
+}
+.offers-text{
+  font-size: 18px;
+    line-height: 1.77778;
+    text-align: center;
+}
+.offers-list {}
+
+.offers-iteam {}
+
+.offers-desk {
+  font-weight: 500;
+  line-height: 1.75;
+    color: #000;
 }

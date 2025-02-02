@@ -436,7 +436,7 @@ body {
   flex-direction: row-reverse;
 }
 .process-img {
-  width: 98px;
+  
 }
 .process-text-wrap {
   width: 281px;
@@ -697,7 +697,7 @@ body {
   gap: 14px;
 }
 .clients-img {
-  width: 50px;
+  
 }
 .clients-text-wrap {
 }
@@ -779,7 +779,7 @@ body {
   color: #173a56;
 }
 .footer-img {
-  width: 40px;
+  
 }
 .footer-title {
   font-weight: 500;
